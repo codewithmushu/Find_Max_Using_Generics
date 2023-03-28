@@ -30,19 +30,19 @@ namespace Generics
             //int num1 = 70;
             //int num2 = 30;
 
-            Console.WriteLine("Please enter first value ");
+            //Console.WriteLine("Please enter first value ");
 
-            float num1 = Convert.ToInt32(Console.ReadLine());
+            //int num1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Please enter second value ");
+            //Console.WriteLine("Please enter second value ");
 
-            float num2 = Convert.ToInt32(Console.ReadLine());
+            //int num2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Please enter third value ");
+            //Console.WriteLine("Please enter third value ");
 
-            float num3 = Convert.ToInt32(Console.ReadLine());
+            //int num3 = Convert.ToInt32(Console.ReadLine());
 
-            float val = FindMaximum<float>.MaximumIntegertNumber(num1, num2, num3);
+            float val = FindMaximum<float>.MaximumIntegertNumber(9.5f , 8.2f, 4.2f);
 
             Console.WriteLine("{0} is greater ", val);
 
