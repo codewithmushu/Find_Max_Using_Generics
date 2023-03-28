@@ -8,7 +8,7 @@ namespace Generics
 {
     public class FindMaximum<T> where T : IComparable
     {
-        public static T MaximumIntegertNumber(T firstValue, T secondValue, T thirdValue)
+        public static int MaximumIntegertNumber(int firstValue, int secondValue, int thirdValue)
         {
             if (firstValue.CompareTo(secondValue)>0 && firstValue.CompareTo(thirdValue)>0 ||
                firstValue.CompareTo(secondValue)>=0 && firstValue.CompareTo(thirdValue)>0 ||
